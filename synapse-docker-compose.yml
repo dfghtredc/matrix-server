@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  synapse:
+    image: ghcr.io/element-hq/synapse:latest
+    container_name: synapse
+    restart: unless-stopped
+    ports:
+      - "8008:8008"
+    volumes:
+      - ./data:/data

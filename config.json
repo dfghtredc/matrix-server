@@ -1,0 +1,11 @@
+{
+   "default_server_config": {
+     "m.homeserver": {
+       "base_url": "https://chat.greycell.online",
+       "server_name": "greycell.online"
+    }
+  },
+  "brand": "Element",
+  "default_theme": "dark",
+  "disable_guests": true
+}

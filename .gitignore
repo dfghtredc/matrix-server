@@ -1,0 +1,7 @@
+*.key
+*.pem
+*.db
+*.sqlite
+data/
+backups/
+media_store/

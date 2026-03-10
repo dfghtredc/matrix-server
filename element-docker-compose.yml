@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  element-web:
+    image: vectorim/element-web:latest
+    container_name: element-web
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json:ro
+    ports:
+      - "8081:80"
