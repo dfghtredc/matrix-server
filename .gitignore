@@ -5,3 +5,4 @@
 data/
 backups/
 media_store/
+*.tar.gz
